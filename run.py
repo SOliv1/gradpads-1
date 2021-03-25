@@ -10,16 +10,16 @@ def index():
     return render_template("index.html")
 
 
-@app.route('/about')
-def about():
+@app.route('/whyliverpool')
+def whyliverpool():
     data = []
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
-    return render_template("about.html", page_title="About", company=data)
+    return render_template("whyliverpool.html", page_title="Why Liverpool", company=data)
 
 
-@app.route('/about/<member_name>')
-def about_member(member_name):
+@app.route('/whyliverpool/<member_name>')
+def whyliverpool_member(member_name):
     member = {}
 
     with open("data/company.json", "r") as json_data:
@@ -38,9 +38,9 @@ def contact():
     return render_template("contact.html", page_title="Contact")
 
 
-@app.route('/careers')
-def careers():
-    return render_template("careers.html", page_title="Careers")
+@app.route('/property')
+def property():
+    return render_template("property.html", page_title="Property")
 
 
 if __name__ == '__main__':

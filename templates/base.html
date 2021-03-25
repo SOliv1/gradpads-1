@@ -24,13 +24,13 @@
                         <a class="nav-link" href="{{ url_for('index') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                        <a class="nav-link" href="{{ url_for('whyliverpool') }}">Why Liverpool</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url_for('careers') }}">Careers</a>
+                        <a class="nav-link" href="{{ url_for('property') }}">Properties to let</a>
                     </li>
                 </ul>
             </div>
@@ -54,11 +54,9 @@
         
     <!-- Main Content -->
     <div class="container">
-        {% block content %} 
-        {% endblock %}
-    </div>
-    <hr>
-
+        {% block content %}
+        {% endblock %} 
+    
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -66,37 +64,39 @@
                 <div class="col-lg-8 col-md-10 mx-auto">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a target="_blank" href="https://twitter.com">
                                 <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <li class="fa fa-twitter fa-stack-1x fa-inverse"></li></span>
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a target="_blank" href="https://facebook.com"></a>
                                 <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                        </span></a>
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a target="_blank" href="https://github.com"></a>
                                 <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                        </span></a>
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; KUK 2021<p>
+                    <p class="copyright text-muted">Copyright &copy; KUK 2021</p>
                 </div>
             </div>
         </div>
     </footer>
-
+    
     <!-- Bootstrap core JavaScript -->
     <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-
     <!-- Custom scripts for this template -->
     <script src="{{ url_for('static', filename='js/clean-blog.min.js') }}"></script>
 </body>
