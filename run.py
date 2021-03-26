@@ -40,7 +40,7 @@ def contact():
 
 @app.route('/property')
 def property():
-    return render_template("property.html", page_title="Property")
+    return render_template("property.html", page_title="Properties to let")
 
 
 if __name__ == '__main__':

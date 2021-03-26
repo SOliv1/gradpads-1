@@ -1,19 +1,19 @@
  [
 {
     "name": "Football Grounds",
-    "description": "Liverpool has two of the world's best football teams with stadiums to match. Liverpool Football Club play at Anfield and Everton Football Club play at Goodison Park. Both stadiums are situated in and around Stanley Park approximately 2 miles away from Liverpool City Centre. All our accommodation is in walking distance of these grounds.",
+    "description": "Liverpool has two of the world's best football teams with stadiums to match. Liverpool Football Club play at Anfield and Everton Football Club play at Goodison Park. Both stadiums are situated in and around Stanley Park approximately 2 miles away from Liverpool City Centre. All our accommodation is in walking distance of these grounds. Read more on Wikipedia",
     "image_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Panorama_of_Anfield_with_new_main_stand_%2829676137824%29.jpg/1600px-Panorama_of_Anfield_with_new_main_stand_%2829676137824%29.jpg",
     "url": "Anfield:information by wikipedia"
 },
 {
     "name": "Art Galleries and Museums",
-    "description": "Liverpool is home to the world famous Tate Art Gallery located on the Albert Dock. The gallery specialises in international modern and contemporary art. Liverpool is also home to a number of museums including World Museum Liverpool, Merseyside Maritime Museum, the International Slavery Museum, the National Conservation Centre, Lady Lever Art Gallery, Sudley House and the forthcoming Museum Of Liverpool.",
+    "description": "Liverpool is home to the world famous Tate Art Gallery located on the Albert Dock. The gallery specialises in international modern and contemporary art. Liverpool is also home to a number of museums including World Museum Liverpool, Merseyside Maritime Museum, the International Slavery Museum, the National Conservation Centre, Lady Lever Art Gallery, Sudley House and the forthcoming Museum Of Liverpool. Read more on Wikipedia.",
     "image_source": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Tate_Liverpool_2.jpg",
     "url": "By Man vyi - Self-photographed, Public Domain, https://commons.wikimedia.org/w/index.php?curid=4644087"
 },
 {
     "name": "Liverpool Music and The Beatles",
-    "description": "All of our properties benefit from the fact that you can walk home from one of the many famous bars and clubs in Liverpool. The Famous Mathew Street houses bars like 'The Cavern', 'Lennons Bar', 'Flanagans' etc. Every August bank holiday Liverpool hosts The Mathew Street Festival where music lovers from all over the Globe come to Liverpool for a three day music extravaganza.",
+    "description": "All of our properties benefit from the fact that you can walk home from one of the many famous bars and clubs in Liverpool. The Famous Mathew Street houses bars like 'The Cavern', 'Lennons Bar', 'Flanagans' etc. Every August bank holiday Liverpool hosts The Mathew Street Festival where music lovers from all over the Globe come to Liverpool for a three day music extravaganza. Read more on Wikipedia.",
     "image_source": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Cavern_of_the_Cavern_Club%2C_2009.jpg",
     "url": "https://en.wikipedia.org/wiki/The_Cavern_Club"
 },
@@ -25,7 +25,7 @@
 },
 {
     "name": "M&S Bank Arena",
-    "description": "The M&S Bank Arena (previously Echo Arena) is a multi-purpose indoor arena in the city centre of Liverpool, England. The venue hosts live music, comedy performances and sporting events, and forms part of Liverpool event campus ACC Liverpool – an interconnected arena, exhibition and convention centre. Read more on Wikipedia",
+    "description": "The M&S Bank Arena (previously Echo Arena) is a multi-purpose indoor arena in the city centre of Liverpool, England. The venue hosts live music, comedy performances and sporting events, and forms part of Liverpool event campus ACC Liverpool – an interconnected arena, exhibition and convention centre. Read more on Wikipedia.",
     "image_source": "https://upload.wikimedia.org/wikipedia/commons/8/8a/The_Echo_arena_-_geograph.org.uk_-_903491_%28cropped%29.jpg",
     "url": "By Steve F - https://en.wikipedia.org/wiki/Liverpool_Arena"
 },
@@ -37,15 +37,14 @@
 },
 {
     "name": "Anglican Cathedral",
-    "description": "",
+    "description": "Liverpool Cathedral is the Cathedral of the Anglican Diocese of Liverpool, built on St James's Mount in Liverpool, and the seat of the Bishop of Liverpool. It may be referred to as the Cathedral Church of Christ in Liverpool (as recorded in the Document of Consecration) or the Cathedral Church of the Risen Christ, Liverpool, being dedicated to Christ 'in especial remembrance of His most glorious Resurrection'. Liverpool Cathedral is the largest cathedral and religious building in Britain, and the eighth largest church in the world. The cathedral is based on a design by Giles Gilbert Scott and was constructed between 1904 and 1978. Read more on Wikipedia.",
     "image_source": "https://upload.wikimedia.org/wikipedia/commons/9/91/Liverpool_Anglican_Cathedral_North_elevation.jpg",
-    "url": "ori"
+    "url": "https://en.wikipedia.org/wiki/AnglicanCathedral/Liverpool"
 },
 {
     "name": "The Metropoliton Cathedral",
-    "description": "Before The Quest of Erebor, Dori lived in Thorin's home in the northern Blue Mountains with his two brothers. In TA 2941, Dori and his two brothers became part of Thorin and Company befriending Bilbo Baggins and travel with him in search of Smaug's treasure caverns in the Lonely Mountain.",
+    "description": "Liverpool Metropolitan Cathedral, officially known as the Metropolitan Cathedral of Christ the King and locally nicknamed 'Paddy's Wigwam', is the seat of the Archbishop of Liverpool and the mother church of the Roman Catholic Archdiocese of Liverpool in Liverpool, England. The Grade II* Metropolitan Cathedral is one of Liverpool's many listed buildings. Read more on Wikipedia.",
     "image_source": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Liverpool_Metropolitan_Cathedral_at_dusk_%28reduced_grain%29%2C_corrected_perspective.jpg",
     "url": "https://en.wikipedia.org/wiki/Liverpool_Metropolitan_Cathedral"
 }
-
 ]

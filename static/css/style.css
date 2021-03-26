@@ -1,3 +1,9 @@
+.body {
+    font-size: 20px;
+    color: #212529;
+    font-family: Lora,'Times New Roman',serif;
+}
+
 .col-md-5 img {
      width: 100%;
 }
@@ -22,12 +28,49 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
-user agent stylesheet
+.user agent stylesheet
 div {
     display: block;
 }
-body {
-    font-size: 20px;
-    color: #212529;
-    font-family: Lora,'Times New Roman',serif;
+
+/*--- gallery styles ---*/
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+    }
+
+
+
+.bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+    }
+    
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
 }
