@@ -28,12 +28,20 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
-.user agent stylesheet
-div {
-    display: block;
-}
+
 
 /*--- gallery styles ---*/
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
 
 .bd-placeholder-img {
         font-size: 1.125rem;
@@ -48,7 +56,6 @@ div {
           font-size: 3.5rem;
         }
     }
-
 
 
 .bd-placeholder-img {
@@ -65,12 +72,3 @@ div {
         }
     }
     
-.row {
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x)/ -2);
-    margin-left: calc(var(--bs-gutter-x)/ -2);
-}
