@@ -30,6 +30,14 @@
     box-sizing: border-box;
 }
 
+/*---social links ---*/
+
+.email-link, 
+.list-inline-item a {
+    color: #212529;
+    transition: all .2s;
+}
+
 
 /*--- gallery styles ---*/
 
