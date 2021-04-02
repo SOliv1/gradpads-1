@@ -14,16 +14,25 @@ body {
 .carousel {
   margin-bottom: 4rem;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
 }
 
+/* Fad the caption to blend in with the image box */
+
+span.visually-hidden {
+    color:#394c6099
+}
+
+sp
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
 }
+
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -36,24 +45,23 @@ body {
 /* MEDIA QUERIES for carousel*/
 
 /*styles for tablet */
-    @media (min-width: 768px) {
-        .media img {
-            height: 150px;
-            object-fit: contain;
-            min-height: 100%;
-            max-height: none;
-            border-radius: 15% 15% 15% 15% / 10% 10% 10% 10%;
-        }
-
-
+@media (min-width: 768px) {
+    .media img {
+        height: 150px;
+        object-fit: contain;
+        min-height: 100%;
+        max-height: none;
+        border-radius: 15% 15% 15% 15% / 10% 10% 10% 10%;
     }
 
-    /* Bump up size of carousel content */
-    @media (min-width: 40em) {
-        .carousel-caption p {
-            margin-bottom: 1.25rem;
-            font-size: 1.25rem;
-            line-height: 1.4;
+}
 
-        }
+/* Bump up size of carousel content */
+@media (min-width: 40em) {
+    .carousel-caption p {
+         margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+
     }
+}
